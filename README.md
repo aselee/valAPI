@@ -1,6 +1,6 @@
-Bulma CSS framework
 
-need to install sass/scss
+install bulma
+install sass/scss
 
 npm install
 node install 
@@ -8,9 +8,3 @@ node install
 
 installed bulma extension
 https://octoshrimpy.github.io/bulma-o-steps/
-
-Create branch to add steps extensions:
-https://wikiki.github.io/components/steps/
-Installed steps extensions; not working correctly.
-
-add hover option over accounting.html
