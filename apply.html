@@ -8,7 +8,7 @@
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
 	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-	<link rel=stylesheet href=css/style.css>
+	<!-- <link rel=stylesheet href=css/style.css> -->
 
 </head>
 	<body>
@@ -45,39 +45,25 @@
     
 
 <!-- Step components -->
-<ul class="steps">
-    <li class="steps-segment">
-      <a href="#" class="steps-marker"></a>
-    </li>
-    <li class="steps-segment">
-      <a href="#" class="steps-marker"></a>
-    </li>
-    <li class="steps-segment is-active">
-      <span class="steps-marker"></span>
-    </li>
-    <li class="steps-segment">
-      <span class="steps-marker"></span>
-    </li>
-    <li class="steps-segment">
-      <span class="steps-marker"></span>
-    </li>
-  </ul>
-  
+
+
 <!-- BreadCrumbs components -->
-		<!-- <div class="column">
-			<nav class="breadcrumb is-centered" aria-label="breadcrumbs">
+		<div class="column">
+			<nav class="breadcrumb is-centered has-arrow-separator" aria-label="breadcrumbs">
 				<ul>
-					<li><a href="#">Apply</a></li>
-					<li><a href="#">Loan Request</a></li>
-					<li><a href="#">Accounting Package</a></li>
-					<li><a href="#">Upload</a></li>
+					<li class="is-active"><a href="#">Apply</a></li>
+					<li><a href="loan.html">Loan Request</a></li>
+					<li><a href="accounting.html">Accounting Package</a></li>
+					<li><a href="upload.html">Upload</a></li>
 				</ul>
 			</nav>
-		</div> -->
+		</div>
 
 <!-- Form -->
+    <div class="container is-size-4">
+        <h1>Application Form</h1>
+    </div>
 		<div class="container is-widescreen">
-			<h1>Application Form</h1>
 
 			<!-- Name -->
 			<div class="field">
@@ -154,27 +140,30 @@
 					</span>
 				</div>
 			</div>
+    </div>
 
+    <!-- submit button -->
+    <div class="columns is-centered">
+      <div class="column is-half">
+        <br/>
+        <div class="navbar-end">
+          <a class="button is-light is-mobile" href="home.html">
+            <span>Cancel</span>
+          </a>
+        <br/>
+          <a class="button is-primary is-mobile" href="loan.html">
+            <span>Submit</span>
+          </a>
+        </div>
+      </div>
+    </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-		</div>
 		<!-- Footer -->
 		<footer class="footer">
 			<div class="content has-text-centered">
 				<p>
-					Copyright 2019. All Rights Reserved.
-					© Copyrights. All rights reseved. Validis Holdings LTD 2016
+            © 2019 Bank Demo. All rights reserved.
+					<!-- © Copyrights. All rights reseved. Validis Holdings LTD 2019 -->
 				</p>
 			</div>
 		

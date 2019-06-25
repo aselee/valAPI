@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Apply</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+	<!-- <link rel=stylesheet href=css/style.css> -->
+
+</head>
+	<body>
+
+		<!-- NavBar -->
+		<nav class="navbar is-info" role="navigation" aria-label="main navigation">
+
+			<div class="navbar-brand">
+				<!-- bank logo -->
+				<a class="navbar-item" href="home.html">
+					<img src="img/vali.PNG" alt="bank logo">
+				</a>
+				<!-- burger menu -->
+				<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+				</a>
+			</div>
+
+			<!-- NavBar buttons -->
+			<div id="navbarBasicExample" class="navbar-menu">
+				<div class=navbar-start>
+					<a class="navbar-item" href="home.html">
+						Home
+					</a>
+					<a class="navbar-item">
+						Test
+					</a>
+				</div>
+			</div>
+    </nav>
+    
+
+
+<!-- BreadCrumbs components -->
+		<div class="column">
+			<nav class="breadcrumb is-centered has-arrow-separator" aria-label="breadcrumbs">
+				<ul>
+					<li><a href="apply.html">Apply</a></li>
+					<li class="is-active"><a href="#">Loan Request</a></li>
+					<li><a href="accounting.html">Accounting Package</a></li>
+					<li><a href="upload.html">Upload</a></li>
+				</ul>
+			</nav>
+		</div>
+
+<!-- Loan Form -->
+    <div class="container is-size-4">
+        <h1>Loan</h1>
+    </div>
+		<div class="container is-widescreen">
+      <div class="field has-addons">
+          <p class="control">
+            <span class="select">
+              <select>
+                <option>$</option>
+                <option>£</option>
+                <option>€</option>
+              </select>
+            </span>
+          </p>
+          <p class="control">
+            <input class="input" type="text" placeholder="Amount of money">
+          </p>
+          <p class="control">
+            <!-- <a class="button">
+              Transfer
+            </a> -->
+          </p>
+        </div>
+        
+        <div class="field has-addons">
+          <p class="control">
+            <span class="select">
+              <select>
+                <option>$</option>
+                <option>£</option>
+                <option>€</option>
+              </select>
+            </span>
+          </p>
+          <p class="control is-expanded">
+            <input class="input" type="text" placeholder="Amount of money">
+          </p>
+          <p class="control">
+            <!-- <a class="button">
+              Transfer
+            </a> -->
+          </p>
+        </div>
+
+  
+
+    <!-- submit button -->
+    <div class="columns is-centered">
+      <div class="column is-half">
+        <br/>
+        <div class="navbar-end">
+          <a class="button is-light is-mobile" href="apply.html">
+            <span>Cancel</span>
+          </a>
+        <br/>
+          <a class="button is-primary is-mobile" href="accounting.html">
+            <span>Submit</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="content has-text-centered">
+				<p>
+            © 2019 Bank Demo. All rights reserved.
+					<!-- © Copyrights. All rights reseved. Validis Holdings LTD 2019 -->
+				</p>
+			</div>
+		</footer>
+
+
+
+
+
+
+
+
+		<!-- Scripts -->
+    <script src=js/script.js></script>
+    <script> bulmaSteps.attach(); </script>
+	</body>
+</html>
+
