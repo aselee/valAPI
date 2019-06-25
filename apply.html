@@ -40,12 +40,31 @@
 					</a>
 				</div>
 			</div>
-		</nav>
+    </nav>
+    
+    
 
 <!-- Step components -->
-
+<ul class="steps">
+    <li class="steps-segment">
+      <a href="#" class="steps-marker"></a>
+    </li>
+    <li class="steps-segment">
+      <a href="#" class="steps-marker"></a>
+    </li>
+    <li class="steps-segment is-active">
+      <span class="steps-marker"></span>
+    </li>
+    <li class="steps-segment">
+      <span class="steps-marker"></span>
+    </li>
+    <li class="steps-segment">
+      <span class="steps-marker"></span>
+    </li>
+  </ul>
+  
 <!-- BreadCrumbs components -->
-		<div class="column">
+		<!-- <div class="column">
 			<nav class="breadcrumb is-centered" aria-label="breadcrumbs">
 				<ul>
 					<li><a href="#">Apply</a></li>
@@ -54,7 +73,7 @@
 					<li><a href="#">Upload</a></li>
 				</ul>
 			</nav>
-		</div>
+		</div> -->
 
 <!-- Form -->
 		<div class="container is-widescreen">
@@ -168,7 +187,8 @@
 
 
 		<!-- Scripts -->
-		<script src=js/script.js></script>
+    <script src=js/script.js></script>
+    <script> bulmaSteps.attach(); </script>
 	</body>
 </html>
 
