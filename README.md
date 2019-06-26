@@ -6,5 +6,16 @@ npm install
 node install 
 
 
-installed bulma extension
-https://octoshrimpy.github.io/bulma-o-steps/
+npm i bulma-extensions
+
+https://github.com/octoshrimpy/bulma-o-steps
+
+https://github.com/aramvisser/bulma-steps
+https://www.npmjs.com/package/bulma-steps-component
+
+
+https://sass-lang.com/documentation/at-rules/import
+
+https://wikiki.github.io/
+https://github.com/Wikiki/bulma-steps
+
