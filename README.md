@@ -1,3 +1,7 @@
+###IMPORTANT
+install init
+install sass correctly 
+https://bulma.io/documentation/customize/concepts/
 
 install bulma
 install sass/scss
