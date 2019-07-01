@@ -1,0 +1,14 @@
+.columns {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+/* .field {
+	justify-content: center;
+	flex-direction: center;
+} */
+
+/* .input {
+	width: 900px;
+} */
