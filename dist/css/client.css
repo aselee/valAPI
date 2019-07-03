@@ -2,3 +2,23 @@
   padding-left: 20px;
 }
 
+.sum li {
+  display: inline-block;
+
+}
+.sum1 li {
+  display: inline-block;
+  
+}
+
+.sum2 li{
+  display: inline-block;
+}
+
+.sumtotal li{
+  display: inline-block;
+}
+
+article {
+  box-shadow: 10px;
+}
