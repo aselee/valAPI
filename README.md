@@ -3,6 +3,8 @@ install init
 install sass correctly 
 https://bulma.io/documentation/customize/concepts/
 
+7/3 => install npm init and npm i node-sass 
+
 install bulma
 install sass/scss
 
