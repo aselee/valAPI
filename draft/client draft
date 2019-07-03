@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Client</title>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+		<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel=stylesheet href=css/client.css>
+    <!-- <link rel="stylesheet" href="./sass/mystyles.scss"> -->
+    <!-- <link rel=stylesheet href=css/debug.css> -->
+
+	</head>
+	<body>
+
+		<!-- NavBar -->
+		<nav class="navbar is-black" role="navigation" aria-label="main navigation">
+			<div class="navbar-brand">
+
+				<!-- bank logo -->
+				<a class="navbar-item" href="home.html">
+          <i class="fab fa-3x fas fa-university"></i>
+				</a>
+
+				<!-- burger menu -->
+				<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+				</a>
+			</div>
+
+			<!-- NavBar buttons -->
+			<div id="navbarBasicExample" class="navbar-menu">
+				<div class=navbar-start>
+					<a class="navbar-item" href="home.html">
+						Home
+					</a>
+					<a class="navbar-item">
+						Test
+					</a>
+        </div>
+        <div id="navbarMenuHeroB" class="navbar-menu">
+            <div class="navbar-end">
+              <a class="navbar-item">
+                <span class="icon is-medium">
+                  <i class="fas fa-2x fas fa-user-circle"></i>
+                </span>
+              </a>
+              <a class="navbar-item">
+                <span class="icon is-medium">
+                  <i class="fas fa-2x fas fas fa-sign-out-alt"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+			</div>
+		</nav>
+		<!-- /NavBar -->
+
+    <!-- Side Menu -->
+    <div class="columns is-fullheight">
+      <div class="column is-2 is-sidebar-menu is-hidden-mobile">
+        <aside class="menu">
+          <p class="menu-label">
+            Accounts
+          </p>
+          <ul class="menu-list">
+            <li><a>Personal</a></li>
+            <li><a>Business</a></li>
+          </ul>
+          <p class="menu-label">
+            Bill Pay
+          </p>
+          <ul class="menu-list">
+            <li><a>View Statements</a></li>
+            <li>
+              <a>Make Transfers</a>
+              <ul>
+                <li><a>test</a></li>
+                <li><a>test</a></li>
+                <li><a>test</a></li>
+              </ul>
+            </li>
+            <li><a>Investments</a></li>
+            <li><a>Apply for Credit</a></li>
+            <li><a>Order Foreign Currency</a></li>
+          </ul>
+          <p class="menu-label">
+            Transactions
+          </p>
+          <ul class="menu-list">
+            <li><a>Payments</a></li>
+            <li><a>Transfers</a></li>
+            <li><a>Balance</a></li>
+          </ul>
+          <p class="menu-label">
+            More Services
+          </p>
+          <ul class="menu-list">
+            <li><a>Support</a></li>
+          </ul>
+        </aside>
+      </div>
+      <div class="container column is-8">
+          <div class="section">
+      
+            <div class="card">
+              <div class="card-header"><p class="card-header-title">Header</p></div>
+              <div class="card-content"><div class="content">Content</div></div>
+            </div>
+            <br />
+            
+            <div class="card is-hidden1">
+              <div class="card-header"><p class="card-header-title">Header</p></div>
+              <div class="card-content"><div class="content">Content</div></div>
+            </div>
+            <br />
+            
+            <div class="card is-hidden1">
+              <div class="card-header"><p class="card-header-title">Header</p></div>
+              <div class="card-content"><div class="content">Content</div></div>
+            </div>
+            <br />
+            
+            <div class="card is-hidden1">
+              <div class="card-header"><p class="card-header-title">Header</p></div>
+              <div class="card-content"><div class="content">Content</div></div>
+            </div>
+            <br />
+            
+            <div class="card is-hidden1">
+              <div class="card-header"><p class="card-header-title">Header</p></div>
+              <div class="card-content"><div class="content">Content</div></div>
+            </div>
+            <br />
+            
+            <div class="card is-hidden1">
+              <div class="card-header"><p class="card-header-title">Header</p></div>
+              <div class="card-content"><div class="content">Content</div></div>
+            </div>
+            <br />
+            
+          </div>
+        </div>
+
+
+    </div>
+
+    
+    <!-- Footer -->
+		<footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          Copyright 2019. All Rights Reserved.
+          © Copyrights. All rights reseved. Validis Holdings LTD 2016
+        </p>
+      </div>
+    </footer>
+	</body>
+</html>
