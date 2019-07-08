@@ -8,6 +8,11 @@
 	padding-bottom: 50px;
 } */
 
+.hero {
+  background-image: url("../img/bankpro.jpg");
+  background-size: cover;
+  background-position: center;
+}
 
 .center, .center-column, .top, .right, .bottom, .left {
 	display: flex;
@@ -16,20 +21,82 @@
 }
 
 .center-column {
-    flex-direction: column;
+  flex-direction: column;
 }
 
-.top    { align-items:     flex-start; }
-.right  { justify-content: flex-end;   }
-.bottom { align-items:     flex-end;   }
-.left   { justify-content: flex-start; }
+.top {
+  align-items: flex-start;
+}
+
+.right {
+  justify-content: flex-end;
+}
+
+.bottom {
+  align-items: flex-end;
+}
+
+.left {
+  justify-content: flex-start;
+}
 
 .single-spaced, .single-spaced * {
     line-height: 1;
 }
 
+/* title text in image */
+.name {
+  top: 82px;
+}
+
+/* grid */
+#a {
+  grid-area: a;
+}
+#b {
+  grid-area: b;
+}
+#c {
+  grid-area: c;
+}
+#d {
+  grid-area: d;
+}
+#e {
+  grid-area: e;
+}
+
+#grid {
+  display: grid;
+  grid-template-areas:
+  "a a a a"
+  "b c d e";
+
+  grid-row-gap: 1rem;
+}
+/* grid end */
+
+
+/* media inquiries */
+@media (max-width: 1024px) {
+  .hero {
+    background-image: url("../img/bankpro.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media (max-width: 758px) {
+  .hero {
+    background-image: url("../img/bankpro.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+/* 
 @media (max-width: 1024px) {
 	.desktop {
 		display: none;
 	}
-}
+} */
