@@ -10,7 +10,7 @@
 		<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <link rel=stylesheet href=css/client.css>
     <!-- <link rel="stylesheet" href="./sass/mystyles.scss"> -->
-    <!-- <link rel=stylesheet href=css/debug.css> -->
+    <link rel=stylesheet href=css/debug.css>
     <!-- test -->
 
 	</head>
@@ -120,47 +120,41 @@
                         <p class="is-size-5">
                           Personal Summary for John Smith
                         </p>
-                        <nav class="level">
-                          <div class="level-left">
-                            <p>Banking</p>
-                          </div>
-                          <div class="level-right">
+                        <div class="column left">
+                          <p>Banking</p>
+                        </div>
+                        <div class="column right">
                             <p>$11,023.99</p>
-                          </div>
-                        </nav>
-                        <nav class="level">
-                          <div class="level-left">
-                            <p>Investment</p>
-                          </div>
-                          <div class="level-right">
-                            <p>$5,000.00</p>
-                          </div>
-                        </nav>
-                        <nav class="level">
-                          <div class="level-left">
-                            <p>Credit</p>
-                          </div>
-                          <div class="level-right">
-                            <p>$739.00</p>
-                          </div>
-                        </nav>
-                        <nav class="level">
-                          <div class="level-left">
-                            <p>Total</p>
-                          </div>
-                          <div class="level-right">
-                            <p>$15,762.99</p>
-                          </div>
-                        </nav>
+                        </div>
+
+
+
+
+
+                        <ul class="sum">
+                          <li>Banking</li>
+                          <br>
+                          <li>$11,023.99</li>
+                        </ul>
+                        <ul class="sum1">
+                          <li>Investment</li>
+                          <br>
+                          <li>$5,000.00</li>
+                        </ul>
+                        <ul class="sum2">
+                          <li>Credit</li>
+                          <br>
+                          <li>$739.00</li>
+                        </ul>
+                        <ul class="sumtotal">
+                          <li>Total</li>
+                          <br>
+                          <li>$15,762.99</li>
+                        </ul>
                       </div>
                     </div>
                 </article>
               </div>
-
-              <!-- upload button -->
-
-
-
               <!-- inbox -->
               <div class="column">
                 <article class="media notification">
@@ -169,35 +163,24 @@
                         <h1 class="title is-size-4">Inbox</h1>
                         <div class="box">
                           <div class="media-content">
-                            <nav class="level">
-                              <div class="level-left">
-                                <p>Monthly Statement</p>
-                              </div>
-                              <div class="level-right">
-                                <p>2</p>
-                              </div>
-                            </nav>
+                            <div class="content">
+                              <p>Monthly Statement</p>
+                            </div>
                           </div>
                         </div>
                         <div class="box">
                           <div class="media-content">
-                            <nav class="level">
-                              <div class="level-left">
-                                <p>Visa Payment Requirement</p>
-                              </div>
-                              <div class="level-right has-text-danger">
-                                <p>1</p>
-                              </div>
-                            </nav>
+                            <div class="content">
+                              <p>Visa Payment Required</p>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
                 </article>
               </div>
+
             </div>
-            
-            <!-- accounts section -->
             <section class="section">
               <div class="column">
                 <article class="media notification">
