@@ -9,86 +9,69 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
 		<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <link rel=stylesheet href=css/home.css>
-    <!-- <link rel=stylesheet href=css/debug.css> -->
+    <!-- test -->
 
 	</head>
 	<body>
+    <section class="hero is-dark is-medium header-image">
+      <div class="hero-head">
 
-    <!-- landing w/logo-->
-    <section class="hero is-fullheight">
-      <!-- hero-head nav -->
-      <nav class="hero-head">
-        <div class="columns is-mobile is-marginless heading has-text-weight-bold">
-          <!-- left columm -->
-          <div class="column left">
-            <figure class="navbar-item image has-text-warning">
-                <p>Bank</p>
-              <i class="fab fa-3x fas fa-university"></i>
-                <p>Demo</p>
-            </figure class="navbar-burger burger" data-target="navMenu" style="width: 6.25rem; height: 3rem;">
+        <!-- Navbar -->
+        <nav class="navbar">
+          <div class="navbar-brand">
+            <a class="navbar-item">
+              <span class="icon is-large">
+                <i class="fab fa-3x fas fa-university"></i>
+              <span class="navbar-burger burger" data-target="navMenu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
           </div>
-          <!-- right column -->
-          <div class="column right">
-            <p class="navbar-item has-text-white desktop">Home</p>
-            <p class="navbar-item has-text-white desktop">Log in</p>
-            
-            <!-- apply button -->
-            <figure class="navbar-item">
-              <a class="button is-success" href="apply.html">
-                Apply Now
+          <div id="navbarMenuHeroB" class="navbar-menu">
+            <div class="navbar-end">
+              <a class="navbar-item">
+                Home
               </a>
-            </figure>
-
+              <a class="navbar-item">
+                Log in
+              </a>
+              <!-- <a class="navbar-item">
+                Sign up
+              </a> -->
+              
+              <span class="navbar-item">
+                <a class="button is-info is-inverted" href="apply.html">
+                  <span>Apply Now</span>
+                </a>
+              </span>
+            </div>
           </div>
-        </div>
-      </nav>
-
-      <!-- title -->
-      <header class="hero-body has-text-centered">
-        <div class="name is-overlay has-text-centered single-spaced">
-          <h1 class="subtitle is-1 has-text-weight-heavy has-text-white">Bank Demo</h1>
-          <h2 class="title is-4 has-text-white">Bringing technology to banking</h2>
-        </div>
-      </header>
-
-      <!-- landing bottom -->
-      <main class="hero-foot center" style="padding: 2rem;">
-        <div id="grid" style="width: 768px;">
-          <div id="a">
-            <p class="subtitle has-text-centered has-text-white is-4">
-              Providing the best financial plans and services <br>
-              acceleration, performance, and consistency
-            </p>
-          </div>
-          <div id="b" class="center-column">
-            <p class="title has-text-white">
-              <i class="fas fa-tachometer-alt has text-grey-light" 
-                style="width: 0.75em; height: 0.75em"></i>
-                1.0<span class="is-size-5">s</span>
-            </p>
-            <p class="subtitle has-text-white is-7">
-              upload speed
-            </p>
-          </div>
-          <div id="c" class="center-column" style="border-left: 1px solid gray;">
-            <p class="title has-text-white"><span class="is-size-5">+</span>1000<span class="is-size-5">clients</span></p>
-            <p class="subtitle is-7 has-text-white">Top Banks</p>
-          </div>
-          <div id="d" class="center-column" style="border-left: 1px solid gray;">
-            <p class="title has-text-white">0</span><span class="is-size-5">hacks</span></p>
-            <p class="subtitle is-7 has-text-white">Government-level Security</p>
-          </div>
-          <div id="e" class="center-column">
-            <a class="button is-danger is-inverted is-rounded is-outlined has-text-weight-bold"
-              style="width: 100%; border: 0.15em solid white;">
-              Upload Now
-            </a>
-          </div>
-
-        </div>
-      </main>
-
+        </nav>
+      </div>
     </section>
+    <section class="hero">
+      <div class="columns is-vcentered">
+        <div class="column is-7">
+          <img src="img/bankstat.jpg">
+        </div>
+        <div class="column is-5">
+        </div>
+
+      </div>
+    </section>
+
+		<!-- Columns -->
+		<div class="box">
+			<article class="media">
+				<div class="media-content">
+					<div class="content">
+						<h1 class="title is-3">Bank Name</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.</p>
+					</div>
+				</div>
+			</article>
+		</div>
 
 
 		<!-- Tiles/ Bank Demo Articles -->
@@ -96,16 +79,16 @@
       <div class="container">
         <div class="columns">
           <div class="column">
-            <article class="media notification is-dark">
+            <article class="media notification is-info">
               <figure class="media-left">
-                <span class="icon is-medium has-text-primary">
+                <span class="icon is-medium">
                   <i class="fab fa-2x fas fa-piggy-bank"></i>
                 </span>
               </figure>
               <div class="media-content">
                 <div class="content">
-                  <h1 class="title is-size-4 has-text-primary">Money?</h1>
-                  <p class="is-size-5 has-text-primary">
+                  <h1 class="title is-size-4">Money?</h1>
+                  <p class="is-size-5">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                   </p>
@@ -114,16 +97,16 @@
             </article>
           </div>
           <div class="column">
-            <article class="media notification is-dark">
+            <article class="media notification is-primary">
               <figure class="media-left">
-                <span class="icon is-medium has-text-warning">
+                <span class="icon is-medium">
                   <i class="fas fa-2x fa-money-check-alt"></i>
                 </span>
               </figure>
               <div class="media-content">
                 <div class="content">
-                  <h1 class="title is-size-4 has-text-warning">Loan?</h1>
-                  <p class="is-size-5 has-text-warning">
+                  <h1 class="title is-size-4">Loan?</h1>
+                  <p class="is-size-5">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                   </p>
@@ -132,16 +115,16 @@
             </article>
           </div>
           <div class="column">
-            <article class="media notification is-dark">
+            <article class="media notification is-warning">
               <figure class="media-left">
-                <span class="icon is-medium has-text-danger">
+                <span class="icon is-medium">
                   <i class="fas fa-2x fa-shield-alt"></i>
                 </span>
               </figure>
               <div class="media-content">
                 <div class="content">
-                  <h1 class="title is-size-4 has-text-danger">Security?</h1>
-                  <p class="is-size-5 has-text-danger">
+                  <h1 class="title is-size-4">Security?</h1>
+                  <p class="is-size-5">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                   </p>

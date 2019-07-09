@@ -10,6 +10,7 @@
 		<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <link rel=stylesheet href=css/client.css>
     <!-- <link rel="stylesheet" href="./sass/mystyles.scss"> -->
+    <link rel="stylesheet" href="css/client.css">
     <!-- <link rel=stylesheet href=css/debug.css> -->
     <!-- test -->
 
@@ -22,9 +23,11 @@
 
 				<!-- bank logo -->
 				<a class="navbar-item" href="home.html">
-          <i class="fab fa-3x fas fa-university"></i>
-				</a>
-
+          <p>Bank</p>
+          <i class="fab fa-2x fas fa-university"></i>
+          <p>Demo</p>
+        </a>
+        
 				<!-- burger menu -->
 				<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
 					<span aria-hidden="true"></span>
@@ -35,24 +38,25 @@
 
 			<!-- NavBar buttons -->
 			<div id="navbarBasicExample" class="navbar-menu">
-				<div class=navbar-start>
+				<!-- <div class=navbar-start>
 					<a class="navbar-item" href="home.html">
 						Home
 					</a>
 					<a class="navbar-item">
 						Test
 					</a>
-        </div>
+        </div> -->
+        
         <div id="navbarMenuHeroB" class="navbar-menu">
             <div class="navbar-end">
               <a class="navbar-item">
                 <span class="icon is-medium">
-                  <i class="fas fa-2x fas fa-user-circle"></i>
+                  <i class="fas fa-1x fas fa-user-circle"></i>
                 </span>
               </a>
               <a class="navbar-item">
                 <span class="icon is-medium">
-                  <i class="fas fa-2x fas fas fa-sign-out-alt"></i>
+                  <i class="fas fa-1x fas fas fa-sign-out-alt"></i>
                 </span>
               </a>
             </div>
@@ -80,9 +84,9 @@
             <li>
               <a>Make Transfers</a>
               <ul>
-                <li><a>test</a></li>
-                <li><a>test</a></li>
-                <li><a>test</a></li>
+                <li><a>Account 1</a></li>
+                <li><a>Account 2</a></li>
+                <li><a>Account 3</a></li>
               </ul>
             </li>
             <li><a>Investments</a></li>
@@ -110,8 +114,11 @@
       <!-- content -->
       <div class="container column is-10">
         <div class="section has-background-light">
+            <div class="level-right">
+              <a class="button is-primary is-large">Upload Financials</a>
+            </div>
           <div class="container">
-            <div class="columns">
+            <div class="columns is-mobile- is-marginless">
               <div class="column">
                 <article class="media notification is-white">
                     <div class="media-content">
@@ -120,30 +127,44 @@
                         <p class="is-size-5">
                           Personal Summary for John Smith
                         </p>
-                        <ul class="sum">
-                          <li>Banking</li>
-                          <br>
-                          <li>$11,023.99</li>
-                        </ul>
-                        <ul class="sum1">
-                          <li>Investment</li>
-                          <br>
-                          <li>$5,000.00</li>
-                        </ul>
-                        <ul class="sum2">
-                          <li>Credit</li>
-                          <br>
-                          <li>$739.00</li>
-                        </ul>
-                        <ul class="sumtotal">
-                          <li>Total</li>
-                          <br>
-                          <li>$15,762.99</li>
-                        </ul>
+                        <nav class="level">
+                          <div class="level-left">
+                            <p>Banking</p>
+                          </div>
+                          <div class="level-right">
+                            <p>$11,023.99</p>
+                          </div>
+                        </nav>
+                        <nav class="level">
+                          <div class="level-left">
+                            <p>Investment</p>
+                          </div>
+                          <div class="level-right">
+                            <p>$5,000.00</p>
+                          </div>
+                        </nav>
+                        <nav class="level">
+                          <div class="level-left">
+                            <p>Credit</p>
+                          </div>
+                          <div class="level-right">
+                            <p>$739.00</p>
+                          </div>
+                        </nav>
+                        <nav class="level">
+                          <div class="level-left">
+                            <p>Total</p>
+                          </div>
+                          <div class="level-right">
+                            <p>$15,762.99</p>
+                          </div>
+                        </nav>
                       </div>
                     </div>
                 </article>
               </div>
+
+
               <!-- inbox -->
               <div class="column">
                 <article class="media notification">
@@ -152,73 +173,152 @@
                         <h1 class="title is-size-4">Inbox</h1>
                         <div class="box">
                           <div class="media-content">
-                            <div class="content">
-                              <p>Monthly Statement</p>
-                            </div>
+                            <nav class="level">
+                              <div class="level-left">
+                                <p>Monthly Statement</p>
+                              </div>
+                              <div class="level-right">
+                                <p>2</p>
+                              </div>
+                            </nav>
                           </div>
                         </div>
                         <div class="box">
                           <div class="media-content">
-                            <div class="content">
-                              <p>Visa Payment Required</p>
-                            </div>
+                            <nav class="level">
+                              <div class="level-left">
+                                <p>Visa Payment Requirement</p>
+                              </div>
+                              <div class="level-right has-text-danger">
+                                <p>1</p>
+                              </div>
+                            </nav>
                           </div>
                         </div>
                       </div>
                     </div>
                 </article>
               </div>
-
             </div>
+
+            <!-- accounts section -->
             <section class="section">
               <div class="column">
                 <article class="media notification">
                     <div class="media-content">
                       <div class="content">
                         <h1 class="title is-size-4">Accounts</h1>
-                        <p>Banking</p>
+                        <div class="media-content">
+                            <nav class="level">
+                              <div class="level-left">
+                                <p>Banking</p>
+                              </div>
+                              <div class="level-right has-text-danger">
+                                <p>Total: $11,023.99</p>
+                              </div>
+                            </nav>
+                          </div>
+                        
                         <div class="box">
                           <div class="media-content">
-                            <div class="content">
-                              <p>LD Everyday Chequing Account/ 123 12344445</p>
-                            </div>
+                            <nav class="level">
+                              <div class="level-left">
+                                <p>LD Everyday Cheqyubg Account/123 12344445</p>
+                              </div>
+                              <div class="level-right">
+                                <p>$11,023.99</p>
+                              </div>
+                            </nav>
                           </div>
                         </div>
-                        <h1 class="title is-size-4">Investment</h1>
+                        
+                        <div class="media-content">
+                          <nav class="level">
+                            <div class="level-left">
+                              <p>Investment</p>
+                            </div>
+                            <div class="level-right has-text-danger">
+                              <p>Total: $4,000</p>
+                            </div>
+                          </nav>
+                        </div>
+
                         <div class="box">
                           <div class="media-content">
-                            <div class="content">
-                              <p>High Interest Tax Free Savings/ 124 12344446</p>
-                            </div>
+                            <nav class="level">
+                              <div class="level-left">
+                                <p>High Interest Tax Free Savings/123 12344445</p>
+                              </div>
+                              <div class="level-right">
+                                <p>$2,000.00</p>
+                              </div>
+                            </nav>
                           </div>
+
+                        
                         </div>
                         <div class="box">
                           <div class="media-content">
-                            <div class="content">
-                              <p>TRM/ 124 13882930</p>
-                            </div>
+                            <nav class="level">
+                              <div class="level-left">
+                                <p>TRM/124 13882930</p>
+                              </div>
+                              <div class="level-right">
+                                <p>$2,000.00</p>
+                              </div>
+                            </nav>
+                            <nav class="level">
+                              <div class="level-left">
+                                <span class="icon is-medium">
+                                  <i class="fas fa-1x fas fa-arrow-right"></i>
+                                </span>
+                                <p>Investment TFSA/ 124 13882932</p>
+                              </div>
+                              <div class="level-right">
+                                <p>$2,000.00</p>
+                              </div>
+                            </nav>
                           </div>
                         </div>
+
+
                         <h1 class="title is-size-4">Credits Cards/ Mortgage/ Loans</h1>
-                        <div class="box">
-                          <div class="media-content">
-                            <div class="content">
-                              <p>Credit Card</p>
+                        <div class="media-content">
+                          <nav class="level">
+                            <div class="level-left">
+                              <p>Credits Cards/ Mortgage/ Loans</p>
                             </div>
-                          </div>
+                            <div class="level-right has-text-danger">
+                              <p>Total: $739.00</p>
+                            </div>
+                          </nav>
                         </div>
                         <div class="box">
                           <div class="media-content">
-                            <div class="content">
-                              <p>Mortgage</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="box">
-                          <div class="media-content">
-                            <div class="content">
-                              <p>Loans</p>
-                            </div>
+                            <nav class="level">
+                              <div class="level-left">
+                                <p>Credit Card</p>
+                              </div>
+                              <div class="level-right">
+                                <p>$300.00</p>
+                              </div>
+                            </nav>
+                            <nav class="level">
+                              <div class="level-left">
+                                <p>Mortgage</p>
+                              </div>
+                              <div class="level-right">
+                                <p>$100.00</p>
+                              </div>
+                            </nav>
+                            <nav class="level">
+                              <div class="level-left">
+                                <p>Loans</p>
+                              </div>
+                              <div class="level-right">
+                                <p>$339.00</p>
+                              </div>
+                            </nav>
                           </div>
                         </div>
                       </div>
@@ -226,21 +326,24 @@
                 </article>
               </div>
             </section>
-            
           </div>
         </div>
+      </div>
     </div>
 
     
     <!-- Footer -->
-		<footer class="footer">
+    <!-- NOTE: Footer shows on the right side of the webpage 
+    when expanded to desktop view -->
+
+		<!-- <footer class="footer">
       <div class="content has-text-centered">
         <p>
           Copyright 2019. All Rights Reserved.
           © Copyrights. All rights reseved. Example Bank LTD 2019
         </p>
       </div>
-    </footer>
+    </footer> -->
 	</body>
 </html>
 
