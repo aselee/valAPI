@@ -9,8 +9,8 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
 	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 	<link rel=stylesheet href=css/apply.css>
-  <link rel=stylesheet href=css/debug.css>
-  <!-- test -->
+  <!-- <link rel=stylesheet href=css/debug.css> -->
+  
 </head>
 	<body>
 
@@ -56,42 +56,102 @@
 
   <!-- Form -->
   <div class="card">
-    <div class="card-content login">
-      <p class="title">Already a member?</p>
-      <p class="subtitle">Sign in to continue</p>
-      <div class="field">
-        <label class="label">Email</label>
-        <div class="control">
-          <input class="input" type="text" placeholder="Add email">
+    <div class="columns">
+      <div class="column is-three-fifths is-offset-one-fifth is-centered">
+        <div class="content is-small">
+          <h1>Application Form</h1>
+        </div>
+        
+        
+        <div class="container is-widescreen">
+
+          <!-- Name -->
+          <div class="field">
+            <label class="label">Name</label>
+            <div class="control has-icons-left has-icons-right">
+              <input class="input" type="text" placeholder="First and Last">
+              <span class="icon is-small is-left">
+                <i class="fas fa-user"></i>
+              </span>
+            </div>
+          </div>
+
+          <!-- Email -->
+          <div class="field">
+            <label class="label">Email</label>
+            <div class="control has-icons-left">
+              <input class="input" type="email" placeholder="Email Address">
+              <span class="icon is-small is-left">
+                <i class="fas fa-envelope"></i>
+              </span>
+            </div>
+          </div>
+
+          <!-- Phone number -->
+          <div class="field">
+            <label class="label">Phone</label>
+            <div class="control has-icons-left">
+              <input class="input" type="email" placeholder="Phone Number">
+              <span class="icon is-small is-left">
+                <i class="fas fa-phone"></i>
+              </span>
+            </div>
+          </div>
+
+          <!-- Company -->
+          <div class="field">
+            <label class="label">Company</label>
+            <div class="control has-icons-left">
+              <input class="input" type="email" placeholder="Company Name">
+              <span class="icon is-small is-left">
+                <i class="fas fa-building"></i>
+              </span>
+            </div>
+          </div>
+
+          <!-- Username -->
+          <div class="field">
+            <label class="label">Username</label>
+            <div class="control has-icons-left">
+              <input class="input" type="email" placeholder="Username">
+              <span class="icon is-small is-left">
+                <i class="fas fa-user-circle"></i>
+              </span>
+            </div>
+          </div>
+
+          <!-- Password -->
+
+          <div class="field">
+            <label class="label">Password</label>
+            <div class="control has-icons-left">
+              <input class="input" type="email" placeholder="Password">
+              <span class="icon is-small is-left">
+                <i class="fas fa-lock"></i>
+              </span>
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Password</label>
+            <div class="control has-icons-left">
+              <input class="input" type="email" placeholder="Re-enter Password">
+              <span class="icon is-small is-left">
+                <i class="fas fa-lock"></i>
+              </span>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="field">
-        <label class="label">password</label>
-        <div class="control">
-          <input class="input" type="text" placeholder="add password">
-        </div>
-      </div>
-      <h6 class="subtitle is-6 has-text-centered">or</h6>
-      <div class="has-text-centered">
-        <a class="button is-link">Facebook</a>
-        <a class="button is-info">Twitter</a>
-      </div>
-      <footer class="card-footer">
-        <p class="card-footer-item">
-          <span> Register</span>
-        </p>
-      </footer>
     </div>
   </div>
 
 
 
-
   <!-- submit button -->
-  <div class="columns is-desktop is-centered">
-    <div class="column is-half">
+  <!-- <div class="columns is-desktop has-text-centered"> -->
+    <div class="column has-text-centered">
       <br/>
-      <div class="navbar-end">
+      <div class="is-left">
         <a class="button is-light is-mobile" href="home.html">
           <span>Cancel</span>
         </a>
@@ -101,7 +161,7 @@
         </a>
       </div>
     </div>
-  </div>
+  <!-- </div> -->
 
   <!-- Footer -->
   <footer class="footer">
