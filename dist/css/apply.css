@@ -1,6 +1,6 @@
 /* .columns {
-	display: flex;  */
-	/* justify-content: center;
+	display: flex;  
+	justify-content: center;
 	flex-direction: column;
 }
 .button {
@@ -25,12 +25,12 @@
   font-weight: lighter;
  }
 
-/* .field {
+.field {
 	justify-content: center;
 	flex-direction: center;
-} */
+} 
 
-/* .input {
+.input {
 	width: 900px;
 } */
 
