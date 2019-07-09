@@ -80,7 +80,7 @@
 /* media inquiries */
 @media (max-width: 1024px) {
   .hero {
-    background-image: url("../img/bankpro.jpg");
+    background-image: url("../img/fintech3.jpg");
     background-size: cover;
     background-position: center;
   }
@@ -88,7 +88,7 @@
 
 @media (max-width: 758px) {
   .hero {
-    background-image: url("../img/bankpro.jpg");
+    background-image: url("../img/fintech3.jpg");
     background-size: cover;
     background-position: center;
   }
