@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Loan</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <link rel=stylesheet href=css/loan.css>
+  <!-- <link rel=stylesheet href=css/debug.css> -->
+  <!-- test -->
+  
+
+</head>
+	<body>
+
+    <!-- NavBar -->
+    <nav class="navbar is-black" role="navigation" aria-label="main navigation">
+
+      <div class="navbar-brand">
+        <!-- bank logo -->
+				<a class="navbar-item" href="home.html">
+          <p>Bank</p>
+          <i class="fab fa-2x fas fa-university"></i>
+          <p>Demo</p>
+        </a>
+        <!-- burger menu -->
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <!-- NavBar buttons -->
+      <!-- <div id="navbarBasicExample" class="navbar-menu">
+        <div class=navbar-start>
+          <a class="navbar-item" href="home.html">
+            Home
+          </a>
+          <a class="navbar-item">
+            Test
+          </a>
+        </div>
+      </div> -->
+    </nav>
+    
+
+
+<!-- BreadCrumbs components -->
+    <div class="column">
+      <nav class="breadcrumb is-centered has-arrow-separator" aria-label="breadcrumbs">
+        <ul>
+          <li><a href="apply.html">Apply</a></li>
+          <li class="is-active"><a href="#">Loan Request</a></li>
+          <!-- <li><a href="accounting.html">Accounting Package</a></li> -->
+          <li><a href="upload.html">Upload</a></li>
+        </ul>
+      </nav>
+    </div>
+  <!-- /BreadCrumb components -->
+
+  <!-- Loan Form -->
+    <!-- <div class="box"> -->
+      <div class="columns is-mobile is-centered">
+        <div class="column is-half">
+          <div class="box">
+          <div class="container is-size-4 ">
+            <h1 class="has-text-centered">Loan</h1>
+          </div>
+
+          <div class="container is-desktop">
+            <div class="level-item has-text-centered has-addons">
+
+              <p class="control">
+                <span class="select">
+                  <select>
+                    <option>$</option>
+                    <option>£</option>
+                    <option>€</option>
+                  </select>
+                </span>
+              </p>
+
+              <p class="control">
+                <input class="input" type="text" placeholder="Amount of money">
+              </p>
+              <!-- <p class="control">
+              <a class="button">
+              Transfer
+              </a>
+              </p> -->
+            </div>
+
+          <!-- dropdown accounting packages -->
+            <div class="column">
+              <div class="container is-size-4 ">
+                <h1 class="has-text-centered">Accounting Packages</h1>
+              </div>
+              <div class="level-item has-text-centered">
+                <p class="control">
+                  <span class="select">
+                    <select>
+                      <option>Abila (BETA)</option>
+                      <option>Microsoft Dynamics GP</option>
+                      <option>Microsoft Dynamics NAV</option>
+                      <option>Pegasus Opera 3 (BETA)</option>
+                      <option>QuickBooks Desktop</option>
+                      <option>QuickBooks Online</option>
+                      <option>Sage 100 Contactor (BETA)</option>
+                      <option>Sage 100 Mas90/Mas200</option>
+                      <option>Sage 200 UK</option>
+                      <option>Sage 300 AccPac</option>
+                      <option>Sage 50 Canada (Simply)</option>
+                      <option>Sage 50 UK</option>
+                      <option>Sage 50 US (Peachtree)</option>
+                      <option>Sage Business Cloud Accounting (BETA)</option>
+                    </select>
+                  </span>
+                </p>
+              </div>
+            </div>
+
+            <!-- submit button -->
+            <div class="column is-half is-centered">
+              <br/>
+              <div class="navbar-end">
+                <a class="button is-light is-mobile" href="apply.html">
+                  <span>Cancel</span>
+                </a>
+              <br/>
+                <a class="button is-primary is-mobile" href="upload.html">
+                  <span>Submit</span>
+                </a>
+              </div>
+            </div>
+            <!-- /submit button -->
+          </div>
+        </div>
+      </div>
+      <!-- </div> -->
+      <!-- /Loan Form -->
+    </div>
+  
+			
+
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="content has-text-centered">
+				<p>
+					© 2019 Bank Demo. All rights reserved.
+					<!-- © Copyrights. All rights reseved. Validis Holdings LTD 2019 -->
+				</p>
+			</div>
+		</footer>
+		<!-- Scripts -->
+    <script src=js/script.js></script>
+	</body>
+</html>
+
+<!-- resent updated -->
