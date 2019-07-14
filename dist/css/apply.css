@@ -3,3 +3,23 @@
   width: 50%;
   padding: 10px;
 }
+
+.section {
+  margin-top: none;
+}
+/* media inquiries */
+@media (max-width: 1024px) {
+  .container {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 758px) {
+  .container {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+}

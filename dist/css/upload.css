@@ -1,3 +1,13 @@
 .card-header-title {
   text-align: center;
 }
+
+.modal-wrap {
+  position: center;
+  width: 650;
+}
+
+.footer {
+  margin: auto;
+  margin-top: 100px
+}

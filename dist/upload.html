@@ -8,9 +8,8 @@
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
 	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-  <!-- <link rel=stylesheet href=css/upload.css> -->
+  <link rel=stylesheet href=css/upload.css>
   <!-- <link rel=stylesheet href=css/debug.css> -->
-  <!-- test234 -->
 
 </head>
 	<body>
@@ -20,7 +19,7 @@
 
 			<div class="navbar-brand">
 				<!-- bank logo -->
-				<a class="navbar-item" href="home.html">
+				<a class="navbar-item has-text-warning" href="home.html">
           <p>Bank</p>
           <i class="fab fa-2x fas fa-university"></i>
           <p>Demo</p>
@@ -45,8 +44,6 @@
 				</div>
 			</div> -->
     </nav>
-    
-
 
 <!-- BreadCrumbs components -->
 		<div class="column">
@@ -59,26 +56,34 @@
 			</nav>
     </div>
     
-    
 
     <!-- modal -->
-    <section>
-
-    </section>
-
-    <!-- submit button -->
-    <div class="field is-grouped is-grouped-centered">
-        <p class="control">
-          <a class="button is-light" href="loan.html">
-            Cancel
-          </a>
-        </p>
-        <p class="control">
-          <a class="button is-primary" href="client.html">
-            Submit
-          </a>
-        </p>
+    <div class="columns is-mobile is-centered">
+      <div class="column is-half">
+        <a class="button is-primary is-large" id="button">Upload Financials</a>
+        <div class="modal" id="page-modal">
+          <div class="modal-background"></div>
+          <div class="modal-content">
+            <button class="modal-close is-large" aria-label="close"></button>
+            <div class="section modal-wrap">
+              <article class="message is-success">
+                <div class="message-header">
+                  <p>Upload Completed</p>
+                  <!-- <button class="delete" aria-label="delete"></button> -->
+                </div>
+                <div class="message-body">
+                  Your Financial Data has been succesfully uploaded.
+                  Click submit to continue.
+                </div>
+                <footer class="modal-card-foot">
+                  <a href="client.html"><button class="button is-success">Submit</button></a>
+                </footer>
+              </article>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
 
 
 		<!-- Footer -->
@@ -93,6 +98,6 @@
 		
 
   <!-- Scripts -->
-  <script src="js/script.js"></script>
+  <script src="js/upload.js"></script>
   </body>
 </html>
