@@ -4,8 +4,19 @@
   padding: 10px;
 }
 
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
 .section {
   margin-top: none;
+}
+
+.field {
+  padding-top: 20px;
 }
 /* media inquiries */
 @media (max-width: 1024px) {
